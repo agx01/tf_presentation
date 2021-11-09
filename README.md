@@ -7,7 +7,7 @@ use of TensorFlow
 ## Linear Regression using TensorFlow
 
 The code generates samples which are used for implementing Linear Regression
-![Sample dataset](https://github.com/agx01/tf_presentation/Figure_1.png?raw=true)
+![Sample dataset](https://github.com/agx01/tf_presentation/blob/main/Figure_1.png?raw=true)
 
 Then the code generates the required model using PlaceHolders for samples and labels,
 and Variables for the weights and the bias
@@ -21,7 +21,7 @@ and minimize the cost.
 Code displays weights, bias and the cost after every 50 epochs.
 
 The Results for displaying the fitted line
-![Results of Linear Regression](https://github.com/agx01/tf_presentation/Figure_2.png?raw=true)
+![Results of Linear Regression](https://github.com/agx01/tf_presentation/blob/main/Figure_2.png?raw=true)
 
 ## Iris Data Classification using Neural Networks on TensorFlow
 
