@@ -35,7 +35,7 @@ train_dataset = tf.data.experimental.make_csv_dataset(train_dataset_fp,
                                                       batch_size,
                                                       column_names = columns_names,
                                                       label_name=label_names,
-                                                      num_epochs=2)
+                                                      num_epochs=10)
 
 features, labels = next(iter(train_dataset))
 print("Features:")
@@ -75,4 +75,6 @@ tf.nn.softmax(predictions[:5])
 
 print("Predictions: {}".format(tf.argmax(predictions, axis=1)))
 print("     Labels: {}".format(labels))
+
+
 
